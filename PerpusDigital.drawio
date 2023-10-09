@@ -1,9 +1,150 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T14:04:49.581Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.7.5" etag="qXO4NwUk5WvE4Gw03jQi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T14:43:59.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PD1OyhpT8sK9FYy80Jwc" version="21.7.5" type="github">
   <diagram name="Page-1" id="ZqYgNsjddCagY804bgph">
-    <mxGraphModel>
+    <mxGraphModel dx="1032" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DDmSRDlwS55BERNv593T-1" value="PERPUSTAKAAN DIGITAL" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="210" y="31" width="480" height="709" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-2" value="Pustakawan" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="741" y="306" width="70" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-3" value="Anggota" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="304" width="70" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-4" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-5" value="Peminjaman" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="446" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-6" value="Baca Buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="364" width="130" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-7" value="Pengembalian" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="530" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-8" value="Mencari Buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="191" width="110" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-9" value="Menyetujui/Menolak" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="364" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-10" value="Menyetujui Pengembalian Buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="460" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-11" value="Laporan Pengujung" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="650" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-12" value="Mengolah Data Buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="270" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-13" value="Melihat Buku" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-14" value="Laporan Peminjaman" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471.25" y="570" width="132.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-15" value="Mengolah Data Anggota" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="190" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-3" target="DDmSRDlwS55BERNv593T-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-17" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-2" target="DDmSRDlwS55BERNv593T-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-3" target="DDmSRDlwS55BERNv593T-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-3" target="DDmSRDlwS55BERNv593T-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-3" target="DDmSRDlwS55BERNv593T-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-3" target="DDmSRDlwS55BERNv593T-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-7" target="DDmSRDlwS55BERNv593T-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-2" target="DDmSRDlwS55BERNv593T-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-2" target="DDmSRDlwS55BERNv593T-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-2" target="DDmSRDlwS55BERNv593T-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-2" target="DDmSRDlwS55BERNv593T-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-14" target="DDmSRDlwS55BERNv593T-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-11" target="DDmSRDlwS55BERNv593T-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="650" as="sourcePoint" />
+            <mxPoint x="400" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-5" target="DDmSRDlwS55BERNv593T-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="420" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-34" value="Include" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=329;" vertex="1" parent="1">
+          <mxGeometry x="400" y="404" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-36" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="DDmSRDlwS55BERNv593T-7" target="DDmSRDlwS55BERNv593T-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="510" as="sourcePoint" />
+            <mxPoint x="400" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDmSRDlwS55BERNv593T-37" value="Extend&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=341;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="500" width="65" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

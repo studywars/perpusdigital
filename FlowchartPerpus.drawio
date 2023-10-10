@@ -1,9 +1,263 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T14:42:11.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="22.0.4" etag="MALApEdUOVBxSfkKJstF" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T16:26:29.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0MmWu7IDS2-2e-jUhZXa" version="22.0.4" type="github">
   <diagram name="Page-1" id="f7slz5XnafnkECcD18YV">
-    <mxGraphModel>
+    <mxGraphModel dx="1882" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="164" y="59" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="214" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-6" value="Login" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="166" y="190" width="96" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-7" value="Tidak terdaftar/salah" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="319" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-9" value="Gagal" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="-10" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="270" />
+              <mxPoint x="-10" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="150" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="354" />
+              <mxPoint x="-160" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-11" value="Berhasil" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-12" value="Mencari Buku" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="323" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-13" value="Buku ditemukan" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="381" y="437" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-15" value="Melakukan peminjaman buku" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="682" y="773" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="614" y="1480" as="sourcePoint" />
+            <mxPoint x="614" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-18" value="Anggota" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210" y="40" as="sourcePoint" />
+            <mxPoint x="1170" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="470" as="sourcePoint" />
+            <mxPoint x="431" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-21" value="Membaca" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="462" width="109" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="690" as="sourcePoint" />
+            <mxPoint x="250" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="270" as="sourcePoint" />
+            <mxPoint x="280" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="80" />
+              <mxPoint x="640" y="230" />
+              <mxPoint x="510" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-26" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Data Anggota&lt;/span&gt;&#xa;&#xa;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="768" y="51" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-27" value="Meminjam" style="rhombus;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="385" y="610" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-29" value="Setuju" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="690" as="sourcePoint" />
+            <mxPoint x="730" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="700" />
+              <mxPoint x="630" y="700" />
+              <mxPoint x="660" y="700" />
+              <mxPoint x="660" y="740" />
+              <mxPoint x="710" y="740" />
+              <mxPoint x="730" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-30" value="Tidak Setuju" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="690" as="sourcePoint" />
+            <mxPoint x="220" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-31" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-32" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="457" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-33" value="Merekap data peminjaman" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="684" y="877" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="940" as="sourcePoint" />
+            <mxPoint x="740" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-35" value="Menggunakan buku" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="353" y="880" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="920" as="sourcePoint" />
+            <mxPoint x="480" y="912" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="920" />
+              <mxPoint x="600" y="880" />
+              <mxPoint x="510" y="880" />
+              <mxPoint x="510" y="912" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-37" value="Mengembalikan buku" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1024" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="360" as="sourcePoint" />
+            <mxPoint x="790" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="350" />
+              <mxPoint x="640" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-40" value="Mengolah Buku" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="300" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="720" as="sourcePoint" />
+            <mxPoint x="30" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412" y="1010" as="sourcePoint" />
+            <mxPoint x="412" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="412" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1070" as="sourcePoint" />
+            <mxPoint x="720" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="1050" />
+              <mxPoint x="650" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-44" value="Menyetujui pengembalian" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1060" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-45" value="Pustakawan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="898" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-46" value="Merekap data &lt;br&gt;anggota" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="768" y="153" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="750" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="260" />
+              <mxPoint x="680" y="260" />
+              <mxPoint x="680" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="340" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="240" />
+              <mxPoint x="340" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-51" value="Merekap data pengembalian" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1184" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-VeTfZfxMa1z1-_RQjod-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1130" as="sourcePoint" />
+            <mxPoint x="791" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-53" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="362" y="1293" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-VeTfZfxMa1z1-_RQjod-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="1230" as="sourcePoint" />
+            <mxPoint x="410" y="1280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1230" />
+              <mxPoint x="560" y="1180" />
+              <mxPoint x="410" y="1180" />
+              <mxPoint x="410" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
